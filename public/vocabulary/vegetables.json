@@ -1,0 +1,35 @@
+[
+    {
+        "word": "Cabbage",
+        "meaning": "Cope",
+        "image": "https://i.ibb.co/Jq0hPKt/cabbage.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "",
+        "_id": {
+            "$oid": "641d225443edea0de5a9ae3a"
+        }
+    },
+    {
+        "word": "Cow",
+        "meaning": "Ghoro",
+        "image": "https://i.ibb.co/Jq0hPKt/cabbage.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "",
+        "_id": {
+            "$oid": "641d231543edea0de5a9ae6d"
+        }
+    },
+    {
+        "word": "Cabbage",
+        "meaning": "Cope",
+        "image": "https://i.ibb.co/Jq0hPKt/cabbage.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "",
+        "_id": {
+            "$oid": "641d24aa3390ce5e01d940db"
+        }
+    }
+]

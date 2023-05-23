@@ -1,0 +1,35 @@
+[
+    {
+        "word": "animals",
+        "meaning": "Ghoro",
+        "image": "1679631090988-animals-cow.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "",
+        "_id": {
+            "$oid": "641d22f343edea0de5a9ae67"
+        }
+    },
+    {
+        "word": "Cat",
+        "meaning": "Biral",
+        "image": "1680236591235-lamb-g98d1e0190_640 (1).png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "",
+        "_id": {
+            "$oid": "6426602f7991446d84db4388"
+        }
+    },
+    {
+        "word": "Cat",
+        "meaning": "Biral",
+        "image": "1680236612566-lamb-g98d1e0190_640 (1).png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "",
+        "_id": {
+            "$oid": "642660447991446d84db438a"
+        }
+    }
+]

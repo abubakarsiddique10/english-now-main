@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Hind+Siliguri:wght@400;500;600&family=Merriweather:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+
+/* font-family: 'Bubblegum Sans', cursive;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.body-color{
+    background-color: #F0F2F5;
+    background: #F8FAFB;
+}
+
+.v_card:hover .icon {
+    transform: scale(1.1);
+}
+.v_card .icon {
+    transition: ease-in;
+    transition-duration: .1s;
+}
+.v_card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 8px; 
+}
+
+.active {   
+    filter: brightness(80%);
+}
+
+@layer components {
+
+    /* common css start*/
+    .main-title {
+        @apply capitalize text-2xl md:text-3xl font-bold font-['Hind_Siliguri'] text-center
+    }
+    .sub_title {
+        @apply font-bold leading-6 text-xl font-['Hind_Siliguri'] text-[#363637]
+    }
+    .sidebar {
+        @apply height flex-1 h-screen bg-inherit sticky top-[67px] w-full max-w-[160px] md:max-w-[200px] lg:max-w-[250px] xl:max-w-[300px] border-r 
+    }
+    .section-title {
+         @apply text-center text-4xl font-bold mb-10 font-['Hind_Siliguri']
+    }
+    .section-img {
+        @apply  object-cover max-w-[90px] h-auto mx-auto
+    }
+    .nav-icon {
+        @apply text-[#2563EB] text-xl
+    }
+    .logout-btn {
+        @apply flex items-center gap-1 pl-5 py-1.5 hover:bg-gray-200 block w-full
+    }
+    
+     /* common css end*/
+
+
+    /* header css start */
+    .logo {
+        @apply font-bold text-xl text-center md:text-xl font-['Hind_Siliguri']
+    }
+    .hamburger {
+        @apply md:hidden flex items-center
+    }
+    .hamburger-menu {
+        @apply fixed top-16 w-full bg-white transition-all ease-in duration-500 py-3 rounded border-r border-y left-0
+    }
+    .profile-menu {
+        @apply absolute top-[52px] right-0 w-[200px] bg-[#F8FAFB] border py-1.5 z-50
+    }
+    /* header css end */
+
+
+
+    /* card css */
+    .text-content {
+        @apply font-['Source_Sans_Pro'] text-base font-normal leading-5 text-[#121212]
+    }
+    .nav-link {
+        @apply text-base font-normal text-gray-900 rounded-lg dark:text-white  hover:bg-gray-200 font-['Poppins'] pl-3 text-black block w-full p-2 flex items-center gap-2.5
+    }
+    .PhoneInput {
+        @apply border pl-3 mb-3 
+    }
+    .PhoneInput .PhoneInputInput {
+        @apply py-3 border-l pl-1 ml-1 w-full
+    }
+    .comment-btn {
+        @apply inline-block py-1.5 w-[150px] bg-blue-600 rounded text-white font-medium text-xs leading-tight shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out
+    }
+    .comment-input {
+        @apply appearance-none block w-full text-sm py-1 px-4 bg-gray-100 rounded-full focus:outline-none
+    }
+
+    /* vocabulary css start */
+    .v-section-img {
+        @apply max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto
+    }
+    .v-grid {
+        @apply grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-y-4 xl:gap-y-0 mt-11
+    }
+    .v-flex {
+        @apply flex flex-col items-center p-2
+    }
+    .v-img {
+        @apply w-16 h-auto mb-2
+    }
+    .v-content {
+        @apply w-full flex flex-col items-center
+    }
+    .v-word {
+        @apply text-lg font-normal leading-6 capitalize
+    }
+    .v-meaning {
+        @apply text-[15px] mt-0.5 font-['Hind_Siliguri'] font-medium text-[#334155]
+    }
+    .v-load-btn {
+        @apply mt-2 p-3 block text-center text-blue-600 font-bold
+    }
+     /* vocabulary css end */
+}
+
+
+@layer utilities {
+    .height {
+        height: calc(100vh - 67px);
+    }
+    
+}
+
