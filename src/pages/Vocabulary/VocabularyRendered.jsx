@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import image from "../../assets/others/Bust2.png"
-import baseURL from "../../api/api";
 import { LoadingTwo } from "../../components/Loading/Loading";
 
 

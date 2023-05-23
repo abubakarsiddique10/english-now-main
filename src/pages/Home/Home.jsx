@@ -2,7 +2,6 @@ import { memo } from "react"
 
 
 const Home = () => {
-
     return (
         <div>
             <h2>hello worlds</h2>
