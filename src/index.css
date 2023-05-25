@@ -20,6 +20,8 @@ font-family: 'Source Sans Pro', sans-serif; */
 .body-color{
     background-color: #F0F2F5;
     background: #F8FAFB;
+    background-color: white;
+    /* background-color: #FFE8C8; */
 }
 
 .v_card:hover .icon {
@@ -34,8 +36,11 @@ font-family: 'Source Sans Pro', sans-serif; */
 }
 
 .active {   
-    filter: brightness(80%);
+    /* filter: brightness(80%); */
+    background: #1F2937;
+    color: white
 }
+
 
 @layer components {
 
@@ -87,7 +92,7 @@ font-family: 'Source Sans Pro', sans-serif; */
         @apply font-['Source_Sans_Pro'] text-base font-normal leading-5 text-[#121212]
     }
     .nav-link {
-        @apply text-base font-normal text-gray-900 rounded-lg dark:text-white  hover:bg-gray-200 font-['Poppins'] pl-3 text-black block w-full p-2 flex items-center gap-2.5
+        @apply text-sm font-medium text-gray-900 rounded-lg font-['Poppins'] pl-3 text-black block w-full p-2 flex items-center
     }
     .PhoneInput {
         @apply border pl-3 mb-3 
@@ -133,8 +138,14 @@ font-family: 'Source Sans Pro', sans-serif; */
 
 @layer utilities {
     .height {
-        height: calc(100vh - 67px);
+        height: calc(100vh - 68px);
     }
-    
 }
 
+.home {
+    background-image: url('/src/assets/banner/banner5.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    background-color: #FFE8C8;
+}

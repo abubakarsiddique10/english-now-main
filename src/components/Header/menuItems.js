@@ -1,12 +1,7 @@
-import { AiFillHome } from "react-icons/ai";
-import { RiBookFill } from "react-icons/ri";
-import { SiStorybook } from "react-icons/si";
-
-
 export const pages = [
-    { name: "Home", link: "/", icon: AiFillHome },
-    { name: "Vocabulary", link: "/vocabulary", icon: RiBookFill },
-    { name: "Story", link: "/story", icon: SiStorybook },
+    { name: "Home", link: "/", },
+    { name: "Vocabulary", link: "/vocabulary", },
+    { name: "Story", link: "/story", },
 ]
 
 export const profilPages = [

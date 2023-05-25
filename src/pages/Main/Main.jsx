@@ -11,22 +11,16 @@ const Main = () => {
     const path = location.pathname;
 
     return (
-        <main className={`w-full ${path === "/" ? "body-color" : "null"}`}>
-            <div className="w-full md:container">
+        <main className={`w-full ${path === "/" ? "bg-gradient-to-r from-blue-200 to-cyan-200" : "null"}`}>
+            <div className="w-full md:container px-3">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/vocabulary" element={<Vocabulary />} >
+                        <Route index element={<VocabularyCategory />} />
+                        <Route path=":category" element={<VocabularyRendered />} />
+                    </Route>
 
-
-
-                <div className="">
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/vocabulary" element={<Vocabulary />} >
-                            <Route index element={<VocabularyCategory />} />
-                            <Route path=":category" element={<VocabularyRendered />} />
-                        </Route>
-
-                    </Routes>
-                </div>
-
+                </Routes>
             </div>
         </main>
     )
