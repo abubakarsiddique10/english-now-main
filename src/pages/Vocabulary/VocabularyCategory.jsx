@@ -17,7 +17,7 @@ const VocabularyCategory = () => {
     }, [])
 
     return (
-        <div className="md:p-14 pt-10">
+        <div className="md:container px-4 md:p-14 pt-10">
             <div className=".category-img">
                 <img data-aos="zoom-in-up" className="max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto" src={image} />
                 <h1 className="main-title" >Categories of vocabulary</h1>

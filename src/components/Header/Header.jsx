@@ -8,8 +8,8 @@ const Header = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <header className="shadow py-4 bg-white sticky top-0 w-full z-50">
-            <div className="md:container px-3">
+        <header className="shadow w-full h-[68px] bg-white sticky top-0 w-full z-50 flex items-center">
+            <div className="w-full md:container px-6">
                 <div className="flex justify-between items-center ">
                     <div className="flex items-center">
                         <div>

@@ -1,12 +1,14 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import image from "../../assets/others/Bust2.png"
 import { LoadingTwo } from "../../components/Loading/Loading";
+import { CiCircleMore } from "react-icons/ci";
 
 
 const VocabularyRendered = () => {
+    const navigate = useNavigate()
 
     const [vocabulary, setVocabulary] = useState([]);
     const [loading, setLoading] = useState(false)
@@ -27,6 +29,10 @@ const VocabularyRendered = () => {
         fetchData()
     }, [])
 
+    const handleClick = (id) => {
+        navigate(`/vocabulary/${category}/${id}`)
+    }
+
 
 
     /*  const vegetables = [
@@ -39,12 +45,11 @@ const VocabularyRendered = () => {
          { word: "mushroom", meaning: "মাশরুম", image: mushroom, sentence: "", synonym: [], antonym: [] }
      ]
   */
-    console.log(vocabulary)
 
     return (
         <>
             {loading ? <LoadingTwo /> :
-                <div className="mt-10">
+                <div className="mt-10 md:container px-6">
                     <div>
                         <div data-aos="zoom-in-up" >
                             <img className="v-section-img" src={image} />
@@ -54,12 +59,13 @@ const VocabularyRendered = () => {
 
                     <div className="v-grid">
                         {
-                            vocabulary?.map(({ word, meaning, image, _id }) => <div key={_id} className="v-flex">
+                            vocabulary?.map(({ word, meaning, image, _id }) => <div onClick={() => handleClick(_id)} key={_id} className="v-card">
                                 <img className="v-img" src={image} alt="" />
                                 <div className="v-content">
                                     <span className="v-word">{word}</span>
                                     <span className="v-meaning">{meaning}</span>
                                 </div>
+                                <CiCircleMore className="v-icon" />
                             </div>)
                         }
                     </div>
