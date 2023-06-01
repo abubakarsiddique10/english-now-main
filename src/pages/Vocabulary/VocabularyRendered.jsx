@@ -5,11 +5,11 @@ import 'aos/dist/aos.css';
 import image from "../../assets/others/Bust2.png"
 import { LoadingTwo } from "../../components/Loading/Loading";
 import { CiCircleMore } from "react-icons/ci";
+import { BsArrowRightShort } from "react-icons/bs";
 
 
 const VocabularyRendered = () => {
     const navigate = useNavigate()
-
     const [vocabulary, setVocabulary] = useState([]);
     const [loading, setLoading] = useState(false)
     const { category } = useParams();
@@ -33,19 +33,6 @@ const VocabularyRendered = () => {
         navigate(`/vocabulary/${category}/${id}`)
     }
 
-
-
-    /*  const vegetables = [
-         { word: "cabbage", meaning: "বাঁধাকপি", image: cabbage, sentence: "", synonym: [], antonym: [] },
-         { word: "carrot", meaning: "গাজর", image: carrot, sentence: "", synonym: [], antonym: [] },
-         { word: "cucumber", meaning: "শসা", image: cucumber, sentence: "", synonym: [], antonym: [] },
-         { word: "tomato", meaning: "টমেটো", image: tomato, sentence: "", synonym: [], antonym: [] },
-         { word: "cauliflower", meaning: "ফুলকপি", image: cauliflower, sentence: "", synonym: [], antonym: [] },
-         { word: "potato", meaning: "আলু", image: potato, sentence: "", synonym: [], antonym: [] },
-         { word: "mushroom", meaning: "মাশরুম", image: mushroom, sentence: "", synonym: [], antonym: [] }
-     ]
-  */
-
     return (
         <>
             {loading ? <LoadingTwo /> :
@@ -57,21 +44,21 @@ const VocabularyRendered = () => {
                         <h1 className="main-title">{category} Vocabulary</h1>
                     </div>
 
-                    <div className="v-grid">
+                    <div className="v-grid mb-8 xl:mb-0">
                         {
-                            vocabulary?.map(({ word, meaning, image, _id }) => <div onClick={() => handleClick(_id)} key={_id} className="v-card">
+                            vocabulary?.map(({ word, meaning, image, _id }) => <div onClick={() => handleClick(_id)} key={_id} className="v-card cursor-pointer">
                                 <img className="v-img" src={image} alt="" />
                                 <div className="v-content">
                                     <span className="v-word">{word}</span>
                                     <span className="v-meaning">{meaning}</span>
                                 </div>
-                                <CiCircleMore className="v-icon" />
+                                <BsArrowRightShort className="v-icon" title="Open Details Page" />
                             </div>)
                         }
                     </div>
                 </div>}
-
         </>
+
     )
 }
 export default VocabularyRendered;

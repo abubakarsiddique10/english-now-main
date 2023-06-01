@@ -41,6 +41,10 @@ font-family: 'Source Sans Pro', sans-serif; */
     color: white
 }
 
+.v-icon[title] {
+    background: #000;
+}
+
 @layer components {
 
     /* common css start*/
@@ -111,13 +115,13 @@ font-family: 'Source Sans Pro', sans-serif; */
         @apply max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto
     }
     .v-grid {
-        @apply grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-y-4 xl:gap-y-0 mt-11
+        @apply grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-y-4 mt-10
     }
     .v-card {
         @apply flex flex-col items-center p-2 relative border hover:border-inherit border-white
     }
     .v-icon {
-        @apply invisible absolute top-5 right-2.5 text-xl
+        @apply invisible absolute top-5 right-0 right-2.5 text-xl bg-gray-100 rounded-full
     }
     .v-card:hover .v-icon {
         @apply visible
@@ -130,7 +134,7 @@ font-family: 'Source Sans Pro', sans-serif; */
         @apply w-full flex flex-col items-center
     }
     .v-word {
-        @apply text-lg font-normal leading-6 capitalize
+        @apply text-lg font-normal leading-6 capitalize text-center
     }
     .v-meaning {
         @apply text-[15px] mt-0.5 font-['Hind_Siliguri'] font-medium text-[#334155]
