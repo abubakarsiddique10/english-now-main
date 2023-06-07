@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <header className="shadow w-full h-[68px] bg-white sticky top-0 w-full z-50 flex items-center">
-            <div className="w-full md:container px-6">
+            <div className="w-full md:container px-4">
                 <div className="flex justify-between items-center ">
                     <div className="flex items-center">
                         <div>

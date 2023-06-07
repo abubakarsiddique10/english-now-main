@@ -1,0 +1,18 @@
+[
+    {
+        "_id": 0,
+        "type": "regular"
+    },
+    {
+        "_id": 1,
+        "type": "irregular"
+    },
+    {
+        "_id": 2,
+        "type": "auxiliary"
+    },
+    {
+        "_id": 3,
+        "type": "phrasal"
+    }
+]

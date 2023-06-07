@@ -21,14 +21,15 @@ const VocabularyDetails = () => {
         fetchData()
     }, [])
 
+
     return (
         <section className="h-screen height flex items-center justify-center">
             <div className="md:container px-4">
-                <div class="w-full max-w-2xl mx-auto bg-white xs:shadow-lg rounded-sm xs:border border-gray-200">
-                    <header class="px-5 py-4 border-b border-gray-100">
-                        <h2 class="font-semibold text-gray-800 text-center text-2xl">Details</h2>
+                <div className="w-full max-w-2xl mx-auto bg-white xs:shadow-lg rounded-sm xs:border border-gray-200">
+                    <header className="px-5 py-4 border-b border-gray-100">
+                        <h2 className="font-semibold text-gray-800 text-center text-2xl">Details</h2>
                     </header>
-                    <div class="px-3 py-5">
+                    <div className="px-3 py-5">
                         <div className="grid grid-cols-1 xs:grid-cols-2 xl:grid-cols-4 gap-5">
                             <div className="flex flex-col items-center">
                                 <h3 className="mb-2 font-semibold uppercase text-gray-400 text-sm">Word</h3>

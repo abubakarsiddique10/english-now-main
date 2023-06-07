@@ -4,6 +4,9 @@ import Vocabulary from "../Vocabulary/Vocabulary";
 import VocabularyRendered from "../Vocabulary/VocabularyRendered";
 import VocabularyCategory from "../Vocabulary/VocabularyCategory";
 import VocabularyDetails from "../Vocabulary/VocabularyDetails";
+import DailyUseSentences from "../DailyUseSentences/DailyUseSentences";
+import Verb from "../Verb/Verb";
+import VerbRendered from "../Verb/VerbRendered";
 
 
 
@@ -21,7 +24,9 @@ const Main = () => {
                         <Route path=":category" element={<VocabularyRendered />} />
                         <Route path=":category/:id" element={<VocabularyDetails />} />
                     </Route>
-                    <Route path="/he" element={<VocabularyDetails />} />
+                    <Route path="/dailyUseSentences" element={<DailyUseSentences />} />
+                    <Route path="/verb" element={<Verb />} />
+                    <Route path="/verbRendered/:category" element={<VerbRendered />} />
                 </Routes>
             </div>
         </main>

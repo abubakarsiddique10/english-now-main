@@ -1,0 +1,134 @@
+[
+    {
+        "present": "accept",
+        "past": "accepted",
+        "participle": "accepted",
+        "meaning": "গ্রহণ করা"
+    },
+    {
+        "present": "ask",
+        "past": "asked",
+        "participle": "asked",
+        "meaning": "জিজ্ঞাসা করা"
+    },
+    {
+        "present": "annoy",
+        "past": "annoyed",
+        "participle": "annoyed",
+        "meaning": "বিরক্ত করা"
+    },
+    {
+        "present": "answer",
+        "past": "answered",
+        "participle": "answered",
+        "meaning": "উত্তর দেয়া"
+    },
+    {
+        "present": "apply",
+        "past": "applied",
+        "participle": "applied",
+        "meaning": "আবেদন করা"
+    },
+    {
+        "present": "appeal",
+        "past": "appealed",
+        "participle": "appealed",
+        "meaning": "আবেদন করা"
+    },
+    {
+        "present": "apologize",
+        "past": "apologized",
+        "participle": "apologized",
+        "meaning": "ক্ষমা প্রার্থনা করা"
+    },
+    {
+        "present": "arrange",
+        "past": "arranged",
+        "participle": "arranged",
+        "meaning": "ব্যবস্থা করা"
+    },
+    {
+        "present": "arrest",
+        "past": "arrested",
+        "participle": "arrested",
+        "meaning": "গ্রেফতার করা"
+    },
+    {
+        "present": "assist",
+        "past": "assisted",
+        "participle": "assisted",
+        "meaning": "সহায়তা করা"
+    },
+    {
+        "present": "attend",
+        "past": "attended",
+        "participle": "attended",
+        "meaning": "উপস্থিত থাকা"
+    },
+    {
+        "present": "allow",
+        "past": "allowed",
+        "participle": "allowed",
+        "meaning": "অনুমতি দেত্তয়া"
+    },
+    {
+        "present": "boil",
+        "past": "boiled",
+        "participle": "boiled",
+        "meaning": "সিদ্ধ করা"
+    },
+    {
+        "present": "borrow",
+        "past": "borrowed",
+        "participle": "borrowed",
+        "meaning": "ধার করা"
+    },
+    {
+        "present": "cheer",
+        "past": "cheered",
+        "participle": "cheered",
+        "meaning": "উল্লাস করা"
+    },
+    {
+        "present": "clean",
+        "past": "cleaned",
+        "participle": "cleaned",
+        "meaning": "পরিষ্কার করা"
+    },
+    {
+        "present": "discuss",
+        "past": "discussed",
+        "participle": "discussed",
+        "meaning": "আলোচনা করা"
+    },
+    {
+        "present": "fail",
+        "past": "failed",
+        "participle": "failed",
+        "meaning": "ব্যর্থ হত্তয়া"
+    },
+    {
+        "present": "fill",
+        "past": "filled",
+        "participle": "filled",
+        "meaning": "পূরণ করা"
+    },
+    {
+        "present": "fix",
+        "past": "fixed",
+        "participle": "fixed",
+        "meaning": "স্থির করা"
+    },
+    {
+        "present": "help",
+        "past": "helped",
+        "participle": "helped",
+        "meaning": "সাহায্য করা"
+    },
+    {
+        "present": "work",
+        "past": "worked",
+        "participle": "worked",
+        "meaning": "কাজ করা"
+    }
+]

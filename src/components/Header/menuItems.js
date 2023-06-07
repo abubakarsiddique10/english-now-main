@@ -1,8 +1,8 @@
 export const pages = [
     { name: "Home", link: "/", },
     { name: "Vocabulary", link: "/vocabulary", },
-    { name: "Daily use sentences", link: "/dailyusesentences", },
-    { name: "Verbs", link: "/verbs", },
+    { name: "Daily use sentences", link: "/dailyUseSentences", },
+    { name: "Verb", link: "/verb", },
 ]
 
 export const profilPages = [

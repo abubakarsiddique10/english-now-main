@@ -18,9 +18,9 @@ const VocabularyCategory = () => {
 
     return (
         <div className="md:container px-4 md:p-14 pt-10">
-            <div className=".category-img">
+            <div className="category-img">
                 <img data-aos="zoom-in-up" className="max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto" src={image} />
-                <h1 className="main-title" >Categories of vocabulary</h1>
+                <h2 className="main-title" >Categories of vocabulary</h2>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 mt-11">
