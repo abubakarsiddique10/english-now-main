@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
-import image from "../../assets/others/Bust1.png"
+import AOS from 'aos';
+import image from '../../assets/others/Bust1.png'
 
 
 const Verb = () => {
@@ -10,6 +11,7 @@ const Verb = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
+        AOS.init({ duration: 600 });
         const fetchData = async () => {
             try {
                 const response = await fetch('/verb/typesOfVerbs.json')

@@ -1,0 +1,110 @@
+[
+    {
+        "present": "abide",
+        "past": "abode",
+        "participle": "abode",
+        "meaning": "মেনে চলা"
+    },
+    {
+        "present": "behold",
+        "past": "beheld",
+        "participle": "beheld",
+        "meaning": "দেখা"
+    },
+    {
+        "present": "dig",
+        "past": "dug",
+        "participle": "dug",
+        "meaning": "খনন করা"
+    },
+    {
+        "present": "feed",
+        "past": "fed",
+        "participle": "fed",
+        "meaning": "খাওয়ানো"
+    },
+    {
+        "present": "fight",
+        "past": "fought",
+        "participle": "fought",
+        "meaning": "যুদ্ধ করা"
+    },
+    {
+        "present": "find",
+        "past": "found",
+        "participle": "found",
+        "meaning": "অনুসন্ধান করা"
+    },
+    {
+        "present": "meet",
+        "past": "met",
+        "participle": "met",
+        "meaning": "সাক্ষাৎ করা"
+    },
+    {
+        "present": "make",
+        "past": "made",
+        "participle": "made",
+        "meaning": "তৈরি করা"
+    },
+    {
+        "present": "sit",
+        "past": "sat",
+        "participle": "sat",
+        "meaning": "বসা"
+    },
+    {
+        "present": "build",
+        "past": "built",
+        "participle": "built",
+        "meaning": "নির্মাণ করা"
+    },
+    {
+        "present": "buy",
+        "past": "bought",
+        "participle": "bought",
+        "meaning": "কেনা"
+    },
+    {
+        "present": "catch",
+        "past": "caught",
+        "participle": "caught",
+        "meaning": "ধরা"
+    },
+    {
+        "present": "become",
+        "past": "became",
+        "participle": "become",
+        "meaning": "হওয়া"
+    },
+    {
+        "present": "begin",
+        "past": "began",
+        "participle": "begun",
+        "meaning": "শুরু করা"
+    },
+    {
+        "present": "bite",
+        "past": "bit",
+        "participle": "bitten",
+        "meaning": "কামড় দেওয়া"
+    },
+    {
+        "present": "break",
+        "past": "broke",
+        "participle": "broken",
+        "meaning": "ভাঙ্গা"
+    },
+    {
+        "present": "come",
+        "past": "came",
+        "participle": "come",
+        "meaning": "আসা"
+    },
+    {
+        "present": "do",
+        "past": "did",
+        "participle": "done",
+        "meaning": "করা"
+    }
+]

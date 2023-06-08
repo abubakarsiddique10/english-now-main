@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import TableHead from "./TableHead"
 import TableData from "./TableData"
 import { useEffect, useState } from "react";
+import { MdStars } from "react-icons/md";
 
 
 
@@ -22,12 +23,12 @@ const VerbRendered = () => {
 
     return (
         <section>
-            <div className="md:container px-2 md:px-4">
-                <div className="md:shadow-sm bg-white rounded-sm border border-gray-100">
+            <div className="md:container px-3 md:px-4">
+                <div className="md:shadow-sm bg-white rounded-sm md:border border-gray-100">
                     <header className="border-gray-100 border-b border-gray-100 py-4">
                         <h2 className="main-title text-gray-800">{category} Verbs List</h2>
                     </header>
-                    <div className="px-0 md:p-3">
+                    {category === "regular" || category === "irregular" ? <div className="px-0 md:p-3">
                         <div className="overflow-x-auto">
                             <table className="table-auto w-full">
                                 <thead className="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
@@ -51,7 +52,18 @@ const VerbRendered = () => {
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> : <div className="px-1 md:px-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 py-4">
+                            {
+                                verbs.map(({ verb, meaning }) => <div className="flex items-center gap-2 ">
+                                    <MdStars />
+                                    <p className="text-lg text-lg font-medium first-letter:uppercase">{verb}</p>
+                                    <p className="font-['Hind_Siliguri'] text-base">{meaning}</p>
+                                </div>)
+                            }
+                        </div>
+                    </div>}
+
                 </div>
             </div>
         </section>
