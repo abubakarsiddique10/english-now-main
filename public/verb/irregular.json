@@ -106,5 +106,11 @@
         "past": "did",
         "participle": "done",
         "meaning": "করা"
+    },
+    {
+        "present": "understand",
+        "past": "understood",
+        "participle": "understood",
+        "meaning": "বুঝতে পারা"
     }
 ]

@@ -52,7 +52,7 @@ const VerbRendered = () => {
                                 </tbody>
                             </table>
                         </div>
-                    </div> : <div className="px-1 md:px-3">
+                    </div> : category === 'phrasal' ? < div className="px-1 md:px-3">
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 py-4">
                             {
                                 verbs.map(({ verb, meaning }) => <div className="flex items-center gap-2 ">
@@ -62,8 +62,42 @@ const VerbRendered = () => {
                                 </div>)
                             }
                         </div>
-                    </div>}
+                    </div> : <div className="md:p-3">
+                        <div className="overflow-x-auto">
+                            <table className="table-auto w-full">
+                                <thead className="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
+                                    <tr className="grid grid-cols-2">
+                                        <TableHead content="primary auxiliaries" />
+                                        <TableHead content="modal auxiliaries" />
+                                    </tr>
+                                </thead>
+                                <tbody className="text-sm divide-y divide-gray-100">
+                                    {
+                                        verbs.map(({ primary, modal }) => <tr className="flex gap-1">
+                                            <table>
+                                                <thead className=" uppercase text-gray-500">
+                                                    <tr className="grid grid-cols-3">
+                                                        <TableHead content="to be" />
+                                                        <TableHead content="to have" />
+                                                        <TableHead content="to do" />
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr className="grid grid-cols-3">
+                                                        <TableData content={primary.tobe} />
+                                                        <TableData content={primary.tohave} />
+                                                        <TableData content={primary.do} />
 
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <TableData content={modal} />
+                                        </tr>)
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>}
                 </div>
             </div>
         </section>

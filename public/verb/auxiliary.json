@@ -1,0 +1,10 @@
+[
+    {
+        "primary": {
+            "tobe": "am, is, are, was, were, be,",
+            "tohave": "have, has, had,",
+            "do": "do, did, does"
+        },
+        "modal": "can, could, shall, should, will, would, may, might, must, need, dare, used to, ought to"
+    }
+]
