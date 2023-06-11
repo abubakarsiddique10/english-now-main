@@ -8,3 +8,6 @@ const TableData = ({ content, fontSize, }) => {
     )
 }
 export default TableData
+
+
+//"can, could, shall, should, will, would, may, might, must, need, dare, used to, ought to"
