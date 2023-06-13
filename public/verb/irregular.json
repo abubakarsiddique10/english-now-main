@@ -1,116 +1,135 @@
 [
     {
+        "_id": "0",
         "present": "abide",
         "past": "abode",
         "participle": "abode",
         "meaning": "মেনে চলা"
     },
     {
+        "_id": "1",
         "present": "behold",
         "past": "beheld",
         "participle": "beheld",
         "meaning": "দেখা"
     },
     {
+        "_id": "2",
         "present": "dig",
         "past": "dug",
         "participle": "dug",
         "meaning": "খনন করা"
     },
     {
+        "_id": "3",
         "present": "feed",
         "past": "fed",
         "participle": "fed",
         "meaning": "খাওয়ানো"
     },
     {
+        "_id": "4",
         "present": "fight",
         "past": "fought",
         "participle": "fought",
         "meaning": "যুদ্ধ করা"
     },
     {
-        "present": "find",
-        "past": "found",
-        "participle": "found",
-        "meaning": "অনুসন্ধান করা"
-    },
-    {
+        "_id": "5",
         "present": "meet",
         "past": "met",
         "participle": "met",
         "meaning": "সাক্ষাৎ করা"
     },
     {
+        "_id": "6",
         "present": "make",
         "past": "made",
         "participle": "made",
         "meaning": "তৈরি করা"
     },
     {
+        "_id": "7",
         "present": "sit",
         "past": "sat",
         "participle": "sat",
         "meaning": "বসা"
     },
     {
+        "_id": "8",
         "present": "build",
         "past": "built",
         "participle": "built",
         "meaning": "নির্মাণ করা"
     },
     {
+        "_id": "9",
         "present": "buy",
         "past": "bought",
         "participle": "bought",
         "meaning": "কেনা"
     },
     {
+        "_id": "10",
         "present": "catch",
         "past": "caught",
         "participle": "caught",
         "meaning": "ধরা"
     },
     {
+        "_id": "11",
         "present": "become",
         "past": "became",
         "participle": "become",
         "meaning": "হওয়া"
     },
     {
+        "_id": "12",
         "present": "begin",
         "past": "began",
         "participle": "begun",
         "meaning": "শুরু করা"
     },
     {
-        "present": "bite",
-        "past": "bit",
-        "participle": "bitten",
-        "meaning": "কামড় দেওয়া"
-    },
-    {
+        "_id": "13",
         "present": "break",
         "past": "broke",
         "participle": "broken",
         "meaning": "ভাঙ্গা"
     },
     {
+        "_id": "14",
         "present": "come",
         "past": "came",
         "participle": "come",
         "meaning": "আসা"
     },
     {
+        "_id": "15",
         "present": "do",
         "past": "did",
         "participle": "done",
         "meaning": "করা"
     },
     {
+        "_id": "16",
         "present": "understand",
         "past": "understood",
         "participle": "understood",
         "meaning": "বুঝতে পারা"
+    },
+    {
+        "_id": "17",
+        "present": "bite",
+        "past": "bit",
+        "participle": "bitten",
+        "meaning": "কামড় দেওয়া"
+    },
+    {
+        "_id": "18",
+        "present": "find",
+        "past": "found",
+        "participle": "found",
+        "meaning": "অনুসন্ধান করা"
     }
 ]

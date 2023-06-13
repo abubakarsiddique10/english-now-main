@@ -164,10 +164,6 @@
         "meaning": "তোমার কথা রাখো।"
     },
     {
-        "sentence": "nothing is impossible.",
-        "meaning": "কোন কিছুই অসম্ভব না।"
-    },
-    {
         "sentence": "something else.",
         "meaning": "আর কিছু।"
     },
@@ -176,16 +172,8 @@
         "meaning": "আর কিছু বলো না।"
     },
     {
-        "sentence": "by the grace of Allah.",
-        "meaning": "আল্লাহর রহমতে।"
-    },
-    {
         "sentence": "it doesn't matter.",
         "meaning": "এটা কোন ব্যাপার না।"
-    },
-    {
-        "sentence": "what can I do for you?",
-        "meaning": "আমি আপনার জন্য কি করতে পারি?"
     },
     {
         "sentence": "are you coming?",
@@ -194,5 +182,17 @@
     {
         "sentence": "don't worry.",
         "meaning": "চিন্তা করবেন না।"
+    },
+    {
+        "sentence": "by the grace of Allah.",
+        "meaning": "আল্লাহর রহমতে।"
+    },
+    {
+        "sentence": "nothing is impossible.",
+        "meaning": "কোন কিছুই অসম্ভব না।"
+    },
+    {
+        "sentence": "what can I do for you?",
+        "meaning": "আমি আপনার জন্য কি করতে পারি?"
     }
 ]

@@ -1,33 +1,41 @@
 [
     {
+        "_id": "0",
         "verb": "look at",
         "meaning": "তাকানো"
     },
     {
+        "_id": "1",
         "verb": "look down",
         "meaning": "ঘৃণা করা"
     },
     {
+        "_id": "2",
         "verb": "look for",
         "meaning": "খোঁজা"
     },
     {
+        "_id": "3",
         "verb": "cheer up",
         "meaning": "উৎসাহিত করা"
     },
     {
+        "_id": "4",
         "verb": "carry on",
         "meaning": "চালিয়ে যান"
     },
     {
+        "_id": "5",
         "verb": "call off",
         "meaning": "বাতিল করা"
     },
     {
+        "_id": "6",
         "verb": "get into",
         "meaning": "প্রবেশ করা"
     },
     {
+        "_id": "7",
         "verb": "get up",
         "meaning": "ওঠা"
     }

@@ -23,21 +23,23 @@ const DailyUseSentences = () => {
 
     return (
         <section >
-            <div className="sm:flex justify-center xl:container px-4 pt-10">
-                <div className="xl:w-full">
-                    <h3 className="main-title mb-5 sm:mt-5 "> Daily Use Sentences</h3>
-                    <div className="grid grid-cols-1 xl:grid-cols-2">
-                        {
-                            sentences.map(({ sentence, meaning }) =>
-                                <div className="sm:flex mb-2.5 sm:mb-2 gap-5 xl:gap-0">
-                                    <div className="flex-1 flex items-center space-x-2.5">
-                                        <MdStars />
-                                        <p className="text-lg font-medium first-letter:uppercase leading-6 sm:leading-7">{sentence}</p>
+            <div className="md:container px-4">
+                <div className="md:shadow-sm bg-white rounded-sm md:border border-gray-100">
+                    <header className="border-gray-100 border-b border-gray-100 py-4">
+                        <h2 className="main-title text-gray-800">Daily Use Sentences</h2>
+                    </header>
+                    < div className="md:px-4">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 py-4">
+                            {
+                                sentences.map(({ sentence, meaning }) => <div className="flex sm:items-center gap-2">
+                                    <MdStars className="mt-1.5 sm:mt-0" />
+                                    <div className="sm:flex items-center gap-2">
+                                        <p className="text-lg font-medium first-letter:uppercase">{sentence}</p>
+                                        <p className="font-['Hind_Siliguri'] text-base">{meaning}</p>
                                     </div>
-                                    <p className="flex-1 text-base mt-0.5 font-['Hind_Siliguri'] font-medium ml-7 sm:ml-0">{meaning}</p>
-                                </div>
-                            )
-                        }
+                                </div>)
+                            }
+                        </div>
                     </div>
                 </div>
             </div>

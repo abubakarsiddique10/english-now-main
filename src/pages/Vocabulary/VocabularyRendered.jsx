@@ -36,7 +36,7 @@ const VocabularyRendered = () => {
     return (
         <>
             {loading ? <LoadingTwo /> :
-                <div className="mt-10 md:container px-6">
+                <div className="mt-10 md:container px-4">
                     <div>
                         <div data-aos="zoom-in-up" >
                             <img className="v-section-img" src={image} />
@@ -46,7 +46,7 @@ const VocabularyRendered = () => {
 
                     <div className="v-grid mb-8 xl:mb-0">
                         {
-                            vocabulary?.map(({ word, meaning, image, _id }) => <div onClick={() => handleClick(_id)} key={_id} className="v-card cursor-pointer">
+                            vocabulary?.map(({ word, meaning, image, _id }) => <div onClick={() => handleClick(_id)} key={_id} className="v-card cursor-pointer border">
                                 <img className="v-img" src={image} alt="" />
                                 <div className="v-content">
                                     <span className="v-word">{word}</span>

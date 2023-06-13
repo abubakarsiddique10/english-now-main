@@ -1,6 +1,7 @@
 import spinner from '../../assets/svg/spinner.svg'
 import spinnerTwo from '../../assets/svg/SpinnerTwo.svg';
 import subSpinner from "../../assets/svg/subSpinner.svg"
+import gif from "../../assets/gif/wired-flat-1148-bee (1).gif";
 
 export const Loading = () => {
     return (

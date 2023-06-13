@@ -1,134 +1,156 @@
 [
     {
+        "_id": "0",
         "present": "accept",
         "past": "accepted",
         "participle": "accepted",
         "meaning": "গ্রহণ করা"
     },
     {
+        "_id": "1",
         "present": "ask",
         "past": "asked",
         "participle": "asked",
         "meaning": "জিজ্ঞাসা করা"
     },
     {
+        "_id": "2",
         "present": "annoy",
         "past": "annoyed",
         "participle": "annoyed",
         "meaning": "বিরক্ত করা"
     },
     {
+        "_id": "3",
         "present": "answer",
         "past": "answered",
         "participle": "answered",
         "meaning": "উত্তর দেয়া"
     },
     {
+        "_id": "4",
         "present": "apply",
         "past": "applied",
         "participle": "applied",
         "meaning": "আবেদন করা"
     },
     {
+        "_id": "5",
         "present": "appeal",
         "past": "appealed",
         "participle": "appealed",
         "meaning": "আবেদন করা"
     },
     {
-        "present": "apologize",
-        "past": "apologized",
-        "participle": "apologized",
-        "meaning": "ক্ষমা প্রার্থনা করা"
-    },
-    {
+        "_id": "6",
         "present": "arrange",
         "past": "arranged",
         "participle": "arranged",
         "meaning": "ব্যবস্থা করা"
     },
     {
-        "present": "arrest",
-        "past": "arrested",
-        "participle": "arrested",
-        "meaning": "গ্রেফতার করা"
-    },
-    {
+        "_id": "7",
         "present": "assist",
         "past": "assisted",
         "participle": "assisted",
         "meaning": "সহায়তা করা"
     },
     {
+        "_id": "8",
         "present": "attend",
         "past": "attended",
         "participle": "attended",
         "meaning": "উপস্থিত থাকা"
     },
     {
-        "present": "allow",
-        "past": "allowed",
-        "participle": "allowed",
-        "meaning": "অনুমতি দেত্তয়া"
-    },
-    {
+        "_id": "9",
         "present": "boil",
         "past": "boiled",
         "participle": "boiled",
         "meaning": "সিদ্ধ করা"
     },
     {
+        "_id": "10",
         "present": "borrow",
         "past": "borrowed",
         "participle": "borrowed",
         "meaning": "ধার করা"
     },
     {
+        "_id": "11",
         "present": "cheer",
         "past": "cheered",
         "participle": "cheered",
         "meaning": "উল্লাস করা"
     },
     {
+        "_id": "12",
         "present": "clean",
         "past": "cleaned",
         "participle": "cleaned",
         "meaning": "পরিষ্কার করা"
     },
     {
-        "present": "discuss",
-        "past": "discussed",
-        "participle": "discussed",
-        "meaning": "আলোচনা করা"
-    },
-    {
+        "_id": "13",
         "present": "fail",
         "past": "failed",
         "participle": "failed",
         "meaning": "ব্যর্থ হত্তয়া"
     },
     {
+        "_id": "14",
         "present": "fill",
         "past": "filled",
         "participle": "filled",
         "meaning": "পূরণ করা"
     },
     {
+        "_id": "15",
         "present": "fix",
         "past": "fixed",
         "participle": "fixed",
         "meaning": "স্থির করা"
     },
     {
+        "_id": "16",
         "present": "help",
         "past": "helped",
         "participle": "helped",
         "meaning": "সাহায্য করা"
     },
     {
+        "_id": "17",
         "present": "work",
         "past": "worked",
         "participle": "worked",
         "meaning": "কাজ করা"
+    },
+    {
+        "_id": "18",
+        "present": "arrest",
+        "past": "arrested",
+        "participle": "arrested",
+        "meaning": "গ্রেফতার করা"
+    },
+    {
+        "_id": "19",
+        "present": "discuss",
+        "past": "discussed",
+        "participle": "discussed",
+        "meaning": "আলোচনা করা"
+    },
+    {
+        "_id": "20",
+        "present": "allow",
+        "past": "allowed",
+        "participle": "allowed",
+        "meaning": "অনুমতি দেত্তয়া"
+    },
+    {
+        "_id": "21",
+        "present": "apologize",
+        "past": "apologized",
+        "participle": "apologized",
+        "meaning": "ক্ষমা প্রার্থনা করা"
     }
 ]
